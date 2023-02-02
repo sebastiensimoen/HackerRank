@@ -31,7 +31,6 @@ mode = min([key for key in counts if counts[key] == max_frequency])
 print(mode)
 
 ### WITH STATISTIC ###
-
 import statistics
 
 # Read the number of elements in the array
