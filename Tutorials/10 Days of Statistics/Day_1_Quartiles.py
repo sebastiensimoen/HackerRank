@@ -38,7 +38,7 @@ def quartiles(arr, n):
             q3_array.append(i)
     q3 = median(q3_array, len(q3_array))
     
-    return [int(q1), int(q2), int(q3)]https://www.hackerrank.com/challenges/s10-quartiles/problem?isFullScreen=true
+    return [int(q1), int(q2), int(q3)]
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
